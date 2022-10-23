@@ -132,7 +132,7 @@ body {
     font-style: normal;
     font-size: 35px;
     padding: 30px;
-    border: 6px solid #57c8a2;
+    border: 6px solid #FFDB58;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     border-left: 0;
@@ -170,6 +170,7 @@ body {
 .wrapper02 {
   display: flex;
   justify-content: center;
+  align-items: center;
   align-content: center;
   width: 100%;
   height: 250px;
@@ -198,7 +199,7 @@ body {
     font-size: 38px;
     padding: 30px;
     border-radius: 15px;
-    border-color: #57c8a2;
+    border-color: #FFDB58;
     border-left: 0;
     border-right: 0;
     border-style: groove;
@@ -244,7 +245,7 @@ body {
     font-size: 38px;
     padding: 30px;
     border-radius: 15px;
-    border-color: #57c8a2;
+    border-color: #FFDB58;
     border-left: 0;
     border-right: 0;
     border-style: groove;
@@ -279,12 +280,27 @@ body {
 
 /* cierre low-wrapper02 */
 /* empresas */
-.empresas h2 {
-  color: white;
-  text-shadow: 1px 1px 4px #231f20; }
-
-.empresas p {
-  color: white; }
+.empresas {
+  width: 100%; }
+  .empresas .row {
+    margin: 0px; }
+  .empresas .row h3 {
+    border: 6px solid #FFDB58;
+    text-shadow: 1px 1px 4px #231f20;
+    color: white;
+    border-radius: 15px;
+    font-size: 38px;
+    padding: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center;
+    margin: 0px; }
+  .empresas h2 {
+    color: white;
+    text-shadow: 1px 1px 4px #231f20; }
+  .empresas p {
+    color: white; }
 
 .transportes {
   width: 100%; }
@@ -292,7 +308,17 @@ body {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin: 0px; }
+  .row div h1 {
+    border: 6px solid #FFDB58;
+    border-radius: 15px;
+    font-size: 38px;
+    padding: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center; }
   .row img {
     width: 288px;
     height: 288px;
@@ -337,3 +363,58 @@ body {
 .medios-pago01 div img {
   width: 150px;
   height: 150px; }
+
+/* contacto */
+.contacto h3 {
+  text-shadow: 1px 1px 4px #231f20;
+  color: #efefef;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 38px;
+  padding: 30px;
+  border-radius: 15px;
+  border-color: #FFDB58;
+  border-left: 0;
+  border-right: 0;
+  border-style: groove;
+  text-align: center; }
+
+.list-group li {
+  background-color: #0a0a0a;
+  color: white; }
+
+/* fin de contacto */
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .carousel-inner div img {
+    height: 220px; }
+  .nuestrosdestinos {
+    flex-direction: column; }
+    .nuestrosdestinos figure img {
+      margin: 0px; }
+  .pie-pagina .grupo-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .argentina {
+    display: flex;
+    flex-direction: column; }
+  .chile {
+    display: flex;
+    flex-direction: column; }
+  .mq1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center; }
+  .all-info .text-01 p {
+    max-width: 66%; }
+  .all-info .mvv {
+    justify-content: center;
+    align-items: center; }
+    .all-info .mvv div {
+      max-width: 66%; } }

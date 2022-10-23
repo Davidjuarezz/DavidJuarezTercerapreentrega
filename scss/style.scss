@@ -69,7 +69,7 @@ body {
         }
 
         figcaption a:hover {
-            color: rgb(87, 200, 162);
+            color: $color-primario;
         }
     }
 
@@ -117,7 +117,7 @@ body {
         font-size: 38px;
         padding: 30px;
         border-radius: 15px;
-        border-color: #FFDB58;
+        border-color: $color-primario;
         border-left: 0;
         border-right: 0;
         border-style: groove;
@@ -185,7 +185,7 @@ body {
         font-size: 38px;
         padding: 30px;
         border-radius: 15px;
-        border-color: #FFDB58;
+        border-color: $color-primario;
         border-left: 0;
         border-right: 0;
         border-style: groove;
@@ -265,6 +265,32 @@ body {
     p {
         color: white;
     }
+}
+
+.swbutton {
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #0a0a0a;
+    border: none;
+    
+    a {
+        text-decoration: none;
+        color: white
+    }
+
+    a:hover {
+        color: $color-primario;
+    }
+}
+
+.cmbutton {
+    @extend .swbutton;
+}
+
+.rmbutton {
+    @extend .swbutton;
+
 }
 
 .transportes {
@@ -364,7 +390,7 @@ body {
         font-size: 38px;
         padding: 30px;
         border-radius: 15px;
-        border-color: #FFDB58;
+        border-color: $color-primario;
         border-left: 0;
         border-right: 0;
         border-style: groove;

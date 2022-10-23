@@ -60,55 +60,58 @@ body {
     text-align: center;
     transition: all 100ms ease; }
   .pie-pagina .redes a:hover {
-    color: #57c8a2; }
+    color: #00acee; }
 
 /* fin de pie-pagina */
 /* form de contacto.html */
-.allitems .form {
-  background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
-  width: 80%;
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: initial;
-  margin: auto;
-  width: 100%;
-  max-width: 400px;
-  border-radius: 1em;
-  padding: 3.5em 1.5em;
-  color: white;
-  text-shadow: 1px 1px 4px #231f20; }
-
-.allitems .form-container {
-  width: 100%;
-  display: grid;
-  gap: 1em;
-  grid-auto-columns: 100%; }
-  .allitems .form-container .form-tittle {
-    text-align: center;
-    font-size: 1.9rem;
-    margin-bottom: .4em; }
-  .allitems .form-container .form_input {
-    font-family: inherit;
-    font-size: 1rem;
-    padding: .8em 1em;
-    outline: none;
-    border: none;
-    border: 1px solid #bbb0b0;
-    border-radius: 0.2em; }
-  .allitems .form-container .form_input--message {
-    resize: none;
-    padding: 1.8em 1em;
-    margin-bottom: 1.5em; }
-  .allitems .form-container .form_cta {
-    font-family: inherit;
-    background-color: #089fe0;
-    color: #fff;
-    border: none;
-    font-weight: 300;
-    padding: 1.7em 0;
-    border-radius: .2em;
-    cursor: pointer;
-    font-weight: 400; }
+.allitems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+  .allitems .form {
+    background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: initial;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    color: white;
+    text-shadow: 1px 1px 4px #231f20; }
+  .allitems .form-container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%; }
+    .allitems .form-container .form-tittle {
+      text-align: center;
+      font-size: 1.9rem;
+      margin-bottom: .4em; }
+    .allitems .form-container .form_input {
+      font-family: inherit;
+      font-size: 1rem;
+      padding: .8em 1em;
+      outline: none;
+      border: none;
+      border: 1px solid #bbb0b0;
+      border-radius: 0.2em; }
+    .allitems .form-container .form_input--message {
+      resize: none;
+      padding: 1.8em 1em;
+      margin-bottom: 1.5em; }
+    .allitems .form-container .form_cta {
+      font-family: inherit;
+      background-color: #089fe0;
+      color: #fff;
+      border: none;
+      font-weight: 300;
+      padding: 1.7em 0;
+      border-radius: .2em;
+      cursor: pointer;
+      font-weight: 400; }
 
 /* cierre form contacto.html */
 /* wrapper */
@@ -353,7 +356,7 @@ body {
     .all-info .text-01 h2 {
       text-shadow: 1px 1px 4px #231f20;
       color: white; }
-    .all-info .text-01 .mxw {
+    .all-info .text-01 p {
       max-width: 33.3333333333%;
       color: white; }
   .all-info .mvv {
@@ -427,7 +430,8 @@ body {
     justify-items: center;
     align-items: center; }
   .all-info .text-01 p {
-    max-width: 66%; }
+    max-width: 66%;
+    color: white; }
   .all-info .mvv {
     justify-content: center;
     align-items: center; }
@@ -437,4 +441,8 @@ body {
     background-color: #f9a21e;
     border: solid white; }
     .swbutton a, .cmbutton a, .rmbutton a {
-      color: black; } }
+      color: black; }
+  .allitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }

@@ -338,7 +338,7 @@ body {
     .all-info .text-01 h2 {
       text-shadow: 1px 1px 4px #231f20;
       color: white; }
-    .all-info .text-01 p {
+    .all-info .text-01 .mxw {
       max-width: 33.3333333333%;
       color: white; }
   .all-info .mvv {
